@@ -4,9 +4,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <h1 className='underline'>hi</h1>
-    </>
+    <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100'>
+      <h2>counter</h2>
+      <Counter />
+      <Footer />
+    </div>
   );
 }
 
